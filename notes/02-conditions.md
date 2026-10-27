@@ -14,3 +14,6 @@
         default -> "Weekday";
     };
     ```
+    - **Senior Developer Tips**:
+  - **Avoid Deep Nesting**: Too many nested `if` statements make code unreadable. Use Guard Clauses instead.
+  - **Switch vs If-Else**: Prefer `switch` over chained `if-else` when checking a single variable against multiple discrete values for cleaner code.
